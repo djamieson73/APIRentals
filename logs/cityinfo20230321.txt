@@ -1,0 +1,430 @@
+2023-03-21 20:13:06.648 -04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-21 20:13:06.865 -04:00 [DBG] Hosting starting
+2023-03-21 20:13:07.160 -04:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0318D70A486CB9C30B7279F5DD858FEB779D09A6)
+2023-03-21 20:13:07.271 -04:00 [INF] Now listening on: https://localhost:7047
+2023-03-21 20:13:07.281 -04:00 [INF] Now listening on: http://localhost:5166
+2023-03-21 20:13:07.283 -04:00 [DBG] Loaded hosting startup assembly API_Rentals
+2023-03-21 20:13:07.284 -04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-21 20:13:07.294 -04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-21 20:13:07.298 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-21 20:13:07.300 -04:00 [INF] Hosting environment: Development
+2023-03-21 20:13:07.301 -04:00 [INF] Content root path: C:\Users\darry\source\WebProject2023-1\API_Rentals\
+2023-03-21 20:13:07.301 -04:00 [DBG] Hosting started
+2023-03-21 20:13:07.547 -04:00 [DBG] Connection id "0HMPAD8RAVDL8" accepted.
+2023-03-21 20:13:07.547 -04:00 [DBG] Connection id "0HMPAD8RAVDL7" accepted.
+2023-03-21 20:13:07.551 -04:00 [DBG] Connection id "0HMPAD8RAVDL8" started.
+2023-03-21 20:13:07.551 -04:00 [DBG] Connection id "0HMPAD8RAVDL7" started.
+2023-03-21 20:13:07.557 -04:00 [DBG] Connection id "0HMPAD8RAVDL7" received FIN.
+2023-03-21 20:13:07.557 -04:00 [DBG] Connection id "0HMPAD8RAVDL8" received FIN.
+2023-03-21 20:13:07.573 -04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-21 20:13:07.573 -04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-21 20:13:07.641 -04:00 [DBG] Connection id "0HMPAD8RAVDL8" stopped.
+2023-03-21 20:13:07.641 -04:00 [DBG] Connection id "0HMPAD8RAVDL7" stopped.
+2023-03-21 20:13:07.646 -04:00 [DBG] Connection id "0HMPAD8RAVDL8" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-21 20:13:07.646 -04:00 [DBG] Connection id "0HMPAD8RAVDL7" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-21 20:13:07.948 -04:00 [DBG] Connection id "0HMPAD8RAVDL9" accepted.
+2023-03-21 20:13:07.952 -04:00 [DBG] Connection id "0HMPAD8RAVDL9" started.
+2023-03-21 20:13:07.958 -04:00 [DBG] Connection id "0HMPAD8RAVDLA" accepted.
+2023-03-21 20:13:07.963 -04:00 [DBG] Connection id "0HMPAD8RAVDLA" started.
+2023-03-21 20:13:08.051 -04:00 [DBG] Connection 0HMPAD8RAVDLA established using the following protocol: "Tls12"
+2023-03-21 20:13:08.051 -04:00 [DBG] Connection 0HMPAD8RAVDL9 established using the following protocol: "Tls12"
+2023-03-21 20:13:08.071 -04:00 [DBG] Connection id "0HMPAD8RAVDL9" reset.
+2023-03-21 20:13:08.084 -04:00 [DBG] Connection id "0HMPAD8RAVDL9" is closed. The last processed stream ID was 0.
+2023-03-21 20:13:08.086 -04:00 [DBG] Connection id "0HMPAD8RAVDL9" sending FIN because: "The client closed the connection."
+2023-03-21 20:13:08.092 -04:00 [DBG] Connection id "0HMPAD8RAVDL9" stopped.
+2023-03-21 20:13:08.128 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7047/swagger/index.html - -
+2023-03-21 20:13:08.172 -04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-21 20:13:08.215 -04:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-03-21 20:13:08.216 -04:00 [DBG] Request did not match any endpoints
+2023-03-21 20:13:08.488 -04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-03-21 20:13:08.512 -04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-03-21 20:13:08.521 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7047/swagger/index.html - - - 200 - text/html;charset=utf-8 397.5497ms
+2023-03-21 20:13:08.552 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2023-03-21 20:13:08.552 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2023-03-21 20:13:08.562 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 10.2691ms
+2023-03-21 20:13:08.613 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 61.4151ms
+2023-03-21 20:13:08.686 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7047/swagger/v1/swagger.json - -
+2023-03-21 20:13:08.688 -04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-03-21 20:13:08.689 -04:00 [DBG] Request did not match any endpoints
+2023-03-21 20:13:08.713 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7047/swagger/favicon-32x32.png - -
+2023-03-21 20:13:08.714 -04:00 [DBG] No candidates found for the request path '/swagger/favicon-32x32.png'
+2023-03-21 20:13:08.717 -04:00 [DBG] Request did not match any endpoints
+2023-03-21 20:13:08.735 -04:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2023-03-21 20:13:08.740 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7047/swagger/favicon-32x32.png - - - 200 628 image/png 26.8267ms
+2023-03-21 20:13:08.924 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7047/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 238.2132ms
+2023-03-21 20:13:16.494 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7047/api/Cities?pageNumber=1&pageSixe=10 - -
+2023-03-21 20:13:16.501 -04:00 [DBG] 1 candidate(s) found for the request path '/api/Cities'
+2023-03-21 20:13:16.507 -04:00 [DBG] Endpoint 'API_Rentals.Controllers.CitiesController.GetCities (API_Rentals)' with route pattern 'api/Cities' is valid for the request path '/api/Cities'
+2023-03-21 20:13:16.510 -04:00 [DBG] Request matched endpoint 'API_Rentals.Controllers.CitiesController.GetCities (API_Rentals)'
+2023-03-21 20:13:16.511 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-03-21 20:13:16.514 -04:00 [INF] Executing endpoint 'API_Rentals.Controllers.CitiesController.GetCities (API_Rentals)'
+2023-03-21 20:13:16.552 -04:00 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Rentals.Models.CityWithoutPointsOfInterestDto]]] GetCities(System.String, System.String, Int32, Int32) on controller API_Rentals.Controllers.CitiesController (API_Rentals).
+2023-03-21 20:13:16.556 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-21 20:13:16.557 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-21 20:13:16.559 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-21 20:13:16.560 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-21 20:13:16.562 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-21 20:13:16.563 -04:00 [DBG] Executing controller factory for controller API_Rentals.Controllers.CitiesController (API_Rentals)
+2023-03-21 20:13:16.718 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-21 20:13:16.915 -04:00 [INF] Executed action API_Rentals.Controllers.CitiesController.GetCities (API_Rentals) in 347.6797ms
+2023-03-21 20:13:16.919 -04:00 [INF] Executed endpoint 'API_Rentals.Controllers.CitiesController.GetCities (API_Rentals)'
+2023-03-21 20:13:16.921 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: Incorrect number of arguments supplied for call to method 'Entities.Models.City get_Item(Int32)' (Parameter 'property')
+   at System.Linq.Expressions.Expression.Property(Expression expression, PropertyInfo property)
+   at AutoMapper.Execution.TypeMapPlanBuilder.CreatePropertyMapFunc(MemberMap memberMap, Expression destination, MemberInfo destinationMember)
+   at AutoMapper.Execution.TypeMapPlanBuilder.CreateAssignmentFunc(Expression createDestination)
+   at AutoMapper.Execution.TypeMapPlanBuilder.CreateMapperLambda()
+   at AutoMapper.TypeMap.CreateMapperLambda(IGlobalConfiguration configuration)
+   at AutoMapper.TypeMap.Seal(IGlobalConfiguration configuration)
+   at AutoMapper.MapperConfiguration.<.ctor>g__Seal|20_0()
+   at AutoMapper.MapperConfiguration..ctor(MapperConfigurationExpression configurationExpression)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c.<AddAutoMapperClasses>b__12_2(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c.<AddAutoMapperClasses>b__12_3(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-21 20:13:16.955 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7047/api/Cities?pageNumber=1&pageSixe=10 - - - 500 - text/plain;+charset=utf-8 460.8699ms
+2023-03-21 20:33:35.126 -04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-21 20:33:35.276 -04:00 [DBG] Hosting starting
+2023-03-21 20:33:35.462 -04:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0318D70A486CB9C30B7279F5DD858FEB779D09A6)
+2023-03-21 20:33:35.535 -04:00 [INF] Now listening on: https://localhost:7047
+2023-03-21 20:33:35.546 -04:00 [INF] Now listening on: http://localhost:5166
+2023-03-21 20:33:35.548 -04:00 [DBG] Loaded hosting startup assembly API_Rentals
+2023-03-21 20:33:35.549 -04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-21 20:33:35.551 -04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-21 20:33:35.553 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-21 20:33:35.556 -04:00 [INF] Hosting environment: Development
+2023-03-21 20:33:35.557 -04:00 [INF] Content root path: C:\Users\darry\source\WebProject2023-1\API_Rentals\
+2023-03-21 20:33:35.558 -04:00 [DBG] Hosting started
+2023-03-21 20:33:35.699 -04:00 [DBG] Connection id "0HMPADK9BIKNI" received FIN.
+2023-03-21 20:33:35.719 -04:00 [DBG] Connection id "0HMPADK9BIKNI" accepted.
+2023-03-21 20:33:35.725 -04:00 [DBG] Connection id "0HMPADK9BIKNI" started.
+2023-03-21 20:33:35.760 -04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-21 20:33:35.830 -04:00 [DBG] Connection id "0HMPADK9BIKNI" stopped.
+2023-03-21 20:33:35.841 -04:00 [DBG] Connection id "0HMPADK9BIKNI" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-21 20:33:36.073 -04:00 [DBG] Connection id "0HMPADK9BIKNJ" accepted.
+2023-03-21 20:33:36.077 -04:00 [DBG] Connection id "0HMPADK9BIKNJ" started.
+2023-03-21 20:33:36.157 -04:00 [DBG] Connection 0HMPADK9BIKNJ established using the following protocol: "Tls12"
+2023-03-21 20:33:36.248 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7047/swagger/index.html - -
+2023-03-21 20:33:36.296 -04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-21 20:33:36.329 -04:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-03-21 20:33:36.330 -04:00 [DBG] Request did not match any endpoints
+2023-03-21 20:33:36.592 -04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-03-21 20:33:36.613 -04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-03-21 20:33:36.621 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7047/swagger/index.html - - - 200 - text/html;charset=utf-8 379.0224ms
+2023-03-21 20:33:36.641 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2023-03-21 20:33:36.641 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2023-03-21 20:33:36.650 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 8.9198ms
+2023-03-21 20:33:36.679 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 38.0279ms
+2023-03-21 20:33:36.774 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7047/swagger/v1/swagger.json - -
+2023-03-21 20:33:36.776 -04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-03-21 20:33:36.777 -04:00 [DBG] Request did not match any endpoints
+2023-03-21 20:33:36.993 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7047/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 219.0135ms
+2023-03-21 20:33:45.856 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7047/api/Cities?pageNumber=1&pageSixe=10 - -
+2023-03-21 20:33:45.864 -04:00 [DBG] 1 candidate(s) found for the request path '/api/Cities'
+2023-03-21 20:33:45.870 -04:00 [DBG] Endpoint 'API_Rentals.Controllers.CitiesController.GetCities (API_Rentals)' with route pattern 'api/Cities' is valid for the request path '/api/Cities'
+2023-03-21 20:33:45.873 -04:00 [DBG] Request matched endpoint 'API_Rentals.Controllers.CitiesController.GetCities (API_Rentals)'
+2023-03-21 20:33:45.876 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-03-21 20:33:45.879 -04:00 [INF] Executing endpoint 'API_Rentals.Controllers.CitiesController.GetCities (API_Rentals)'
+2023-03-21 20:33:45.915 -04:00 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Rentals.Models.CityWithoutPointsOfInterestDto]]] GetCities(System.String, System.String, Int32, Int32) on controller API_Rentals.Controllers.CitiesController (API_Rentals).
+2023-03-21 20:33:45.918 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-21 20:33:45.919 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-21 20:33:45.921 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-21 20:33:45.922 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-21 20:33:45.925 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-21 20:33:45.927 -04:00 [DBG] Executing controller factory for controller API_Rentals.Controllers.CitiesController (API_Rentals)
+2023-03-21 20:33:46.079 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-21 20:33:46.272 -04:00 [INF] Executed action API_Rentals.Controllers.CitiesController.GetCities (API_Rentals) in 340.7798ms
+2023-03-21 20:33:46.277 -04:00 [INF] Executed endpoint 'API_Rentals.Controllers.CitiesController.GetCities (API_Rentals)'
+2023-03-21 20:33:46.279 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: Incorrect number of arguments supplied for call to method 'Entities.Models.City get_Item(Int32)' (Parameter 'property')
+   at System.Linq.Expressions.Expression.Property(Expression expression, PropertyInfo property)
+   at AutoMapper.Execution.TypeMapPlanBuilder.CreatePropertyMapFunc(MemberMap memberMap, Expression destination, MemberInfo destinationMember)
+   at AutoMapper.Execution.TypeMapPlanBuilder.CreateAssignmentFunc(Expression createDestination)
+   at AutoMapper.Execution.TypeMapPlanBuilder.CreateMapperLambda()
+   at AutoMapper.TypeMap.CreateMapperLambda(IGlobalConfiguration configuration)
+   at AutoMapper.TypeMap.Seal(IGlobalConfiguration configuration)
+   at AutoMapper.MapperConfiguration.<.ctor>g__Seal|20_0()
+   at AutoMapper.MapperConfiguration..ctor(MapperConfigurationExpression configurationExpression)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c.<AddAutoMapperClasses>b__12_2(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c.<AddAutoMapperClasses>b__12_3(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-21 20:33:46.308 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7047/api/Cities?pageNumber=1&pageSixe=10 - - - 500 - text/plain;+charset=utf-8 451.6521ms
+2023-03-21 20:34:47.809 -04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-21 20:34:47.941 -04:00 [DBG] Hosting starting
+2023-03-21 20:34:48.146 -04:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0318D70A486CB9C30B7279F5DD858FEB779D09A6)
+2023-03-21 20:34:48.212 -04:00 [INF] Now listening on: https://localhost:7047
+2023-03-21 20:34:48.213 -04:00 [INF] Now listening on: http://localhost:5166
+2023-03-21 20:34:48.213 -04:00 [DBG] Loaded hosting startup assembly API_Rentals
+2023-03-21 20:34:48.214 -04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-21 20:34:48.215 -04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-21 20:34:48.216 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-21 20:34:48.218 -04:00 [INF] Hosting environment: Development
+2023-03-21 20:34:48.219 -04:00 [INF] Content root path: C:\Users\darry\source\WebProject2023-1\API_Rentals\
+2023-03-21 20:34:48.220 -04:00 [DBG] Hosting started
+2023-03-21 20:34:48.347 -04:00 [DBG] Connection id "0HMPADKV0BUN2" accepted.
+2023-03-21 20:34:48.347 -04:00 [DBG] Connection id "0HMPADKV0BUN3" accepted.
+2023-03-21 20:34:48.354 -04:00 [DBG] Connection id "0HMPADKV0BUN2" started.
+2023-03-21 20:34:48.355 -04:00 [DBG] Connection id "0HMPADKV0BUN3" started.
+2023-03-21 20:34:48.357 -04:00 [DBG] Connection id "0HMPADKV0BUN2" received FIN.
+2023-03-21 20:34:48.357 -04:00 [DBG] Connection id "0HMPADKV0BUN3" received FIN.
+2023-03-21 20:34:48.388 -04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-21 20:34:48.388 -04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-21 20:34:48.461 -04:00 [DBG] Connection id "0HMPADKV0BUN2" stopped.
+2023-03-21 20:34:48.461 -04:00 [DBG] Connection id "0HMPADKV0BUN3" stopped.
+2023-03-21 20:34:48.467 -04:00 [DBG] Connection id "0HMPADKV0BUN3" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-21 20:34:48.467 -04:00 [DBG] Connection id "0HMPADKV0BUN2" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-21 20:34:48.781 -04:00 [DBG] Connection id "0HMPADKV0BUN4" accepted.
+2023-03-21 20:34:48.800 -04:00 [DBG] Connection id "0HMPADKV0BUN4" started.
+2023-03-21 20:34:48.913 -04:00 [DBG] Connection 0HMPADKV0BUN4 established using the following protocol: "Tls12"
+2023-03-21 20:34:49.042 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7047/swagger/index.html - -
+2023-03-21 20:34:49.114 -04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-21 20:34:49.152 -04:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-03-21 20:34:49.154 -04:00 [DBG] Request did not match any endpoints
+2023-03-21 20:34:49.447 -04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-03-21 20:34:49.475 -04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-03-21 20:34:49.484 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7047/swagger/index.html - - - 200 - text/html;charset=utf-8 448.7930ms
+2023-03-21 20:34:49.505 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2023-03-21 20:34:49.505 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2023-03-21 20:34:49.518 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 12.5857ms
+2023-03-21 20:34:49.537 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.1410ms
+2023-03-21 20:34:49.629 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7047/swagger/v1/swagger.json - -
+2023-03-21 20:34:49.631 -04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-03-21 20:34:49.632 -04:00 [DBG] Request did not match any endpoints
+2023-03-21 20:34:49.810 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7047/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 181.0329ms
+2023-03-21 20:34:55.206 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7047/api/Cities?pageNumber=1&pageSixe=10 - -
+2023-03-21 20:34:55.212 -04:00 [DBG] 1 candidate(s) found for the request path '/api/Cities'
+2023-03-21 20:34:55.218 -04:00 [DBG] Endpoint 'API_Rentals.Controllers.CitiesController.GetCities (API_Rentals)' with route pattern 'api/Cities' is valid for the request path '/api/Cities'
+2023-03-21 20:34:55.224 -04:00 [DBG] Request matched endpoint 'API_Rentals.Controllers.CitiesController.GetCities (API_Rentals)'
+2023-03-21 20:34:55.226 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-03-21 20:34:55.229 -04:00 [INF] Executing endpoint 'API_Rentals.Controllers.CitiesController.GetCities (API_Rentals)'
+2023-03-21 20:34:55.262 -04:00 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Rentals.Models.CityWithoutPointsOfInterestDto]]] GetCities(System.String, System.String, Int32, Int32) on controller API_Rentals.Controllers.CitiesController (API_Rentals).
+2023-03-21 20:34:55.266 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-21 20:34:55.271 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-21 20:34:55.272 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-21 20:34:55.274 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-21 20:34:55.275 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-21 20:34:55.277 -04:00 [DBG] Executing controller factory for controller API_Rentals.Controllers.CitiesController (API_Rentals)
+2023-03-21 20:34:55.432 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-21 20:34:55.621 -04:00 [INF] Executed action API_Rentals.Controllers.CitiesController.GetCities (API_Rentals) in 339.8898ms
+2023-03-21 20:34:55.624 -04:00 [INF] Executed endpoint 'API_Rentals.Controllers.CitiesController.GetCities (API_Rentals)'
+2023-03-21 20:34:55.625 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: Incorrect number of arguments supplied for call to method 'Entities.Models.City get_Item(Int32)' (Parameter 'property')
+   at System.Linq.Expressions.Expression.Property(Expression expression, PropertyInfo property)
+   at AutoMapper.Execution.TypeMapPlanBuilder.CreatePropertyMapFunc(MemberMap memberMap, Expression destination, MemberInfo destinationMember)
+   at AutoMapper.Execution.TypeMapPlanBuilder.CreateAssignmentFunc(Expression createDestination)
+   at AutoMapper.Execution.TypeMapPlanBuilder.CreateMapperLambda()
+   at AutoMapper.TypeMap.CreateMapperLambda(IGlobalConfiguration configuration)
+   at AutoMapper.TypeMap.Seal(IGlobalConfiguration configuration)
+   at AutoMapper.MapperConfiguration.<.ctor>g__Seal|20_0()
+   at AutoMapper.MapperConfiguration..ctor(MapperConfigurationExpression configurationExpression)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c.<AddAutoMapperClasses>b__12_2(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c.<AddAutoMapperClasses>b__12_3(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-21 20:34:55.654 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7047/api/Cities?pageNumber=1&pageSixe=10 - - - 500 - text/plain;+charset=utf-8 447.6845ms
+2023-03-21 20:35:26.064 -04:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-03-21 20:35:26.182 -04:00 [DBG] Hosting starting
+2023-03-21 20:35:26.331 -04:00 [DBG] Using development certificate: CN=localhost (Thumbprint: 0318D70A486CB9C30B7279F5DD858FEB779D09A6)
+2023-03-21 20:35:26.385 -04:00 [INF] Now listening on: https://localhost:7047
+2023-03-21 20:35:26.401 -04:00 [INF] Now listening on: http://localhost:5166
+2023-03-21 20:35:26.403 -04:00 [DBG] Loaded hosting startup assembly API_Rentals
+2023-03-21 20:35:26.404 -04:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-03-21 20:35:26.406 -04:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-03-21 20:35:26.408 -04:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-21 20:35:26.410 -04:00 [INF] Hosting environment: Development
+2023-03-21 20:35:26.412 -04:00 [INF] Content root path: C:\Users\darry\source\WebProject2023-1\API_Rentals\
+2023-03-21 20:35:26.415 -04:00 [DBG] Hosting started
+2023-03-21 20:35:26.527 -04:00 [DBG] Connection id "0HMPADLACGL97" received FIN.
+2023-03-21 20:35:26.527 -04:00 [DBG] Connection id "0HMPADLACGL98" received FIN.
+2023-03-21 20:35:26.543 -04:00 [DBG] Connection id "0HMPADLACGL97" accepted.
+2023-03-21 20:35:26.543 -04:00 [DBG] Connection id "0HMPADLACGL98" accepted.
+2023-03-21 20:35:26.546 -04:00 [DBG] Connection id "0HMPADLACGL97" started.
+2023-03-21 20:35:26.546 -04:00 [DBG] Connection id "0HMPADLACGL98" started.
+2023-03-21 20:35:26.574 -04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-21 20:35:26.574 -04:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-03-21 20:35:26.641 -04:00 [DBG] Connection id "0HMPADLACGL98" stopped.
+2023-03-21 20:35:26.641 -04:00 [DBG] Connection id "0HMPADLACGL97" stopped.
+2023-03-21 20:35:26.655 -04:00 [DBG] Connection id "0HMPADLACGL97" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-21 20:35:26.655 -04:00 [DBG] Connection id "0HMPADLACGL98" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-03-21 20:35:27.000 -04:00 [DBG] Connection id "0HMPADLACGL99" accepted.
+2023-03-21 20:35:27.005 -04:00 [DBG] Connection id "0HMPADLACGL99" started.
+2023-03-21 20:35:27.125 -04:00 [DBG] Connection 0HMPADLACGL99 established using the following protocol: "Tls12"
+2023-03-21 20:35:27.269 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7047/swagger/index.html - -
+2023-03-21 20:35:27.384 -04:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-03-21 20:35:27.454 -04:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2023-03-21 20:35:27.456 -04:00 [DBG] Request did not match any endpoints
+2023-03-21 20:35:27.789 -04:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-03-21 20:35:27.815 -04:00 [DBG] Response markup was updated to include browser refresh script injection.
+2023-03-21 20:35:27.827 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7047/swagger/index.html - - - 200 - text/html;charset=utf-8 573.6362ms
+2023-03-21 20:35:27.854 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_vs/browserLink - -
+2023-03-21 20:35:27.854 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - -
+2023-03-21 20:35:27.863 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 8.6567ms
+2023-03-21 20:35:27.914 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7047/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 59.8673ms
+2023-03-21 20:35:28.003 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7047/swagger/v1/swagger.json - -
+2023-03-21 20:35:28.005 -04:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2023-03-21 20:35:28.006 -04:00 [DBG] Request did not match any endpoints
+2023-03-21 20:35:28.220 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7047/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 216.7608ms
+2023-03-21 20:35:33.558 -04:00 [INF] Request starting HTTP/2 GET https://localhost:7047/api/Cities?pageNumber=1&pageSixe=10 - -
+2023-03-21 20:35:33.565 -04:00 [DBG] 1 candidate(s) found for the request path '/api/Cities'
+2023-03-21 20:35:33.571 -04:00 [DBG] Endpoint 'API_Rentals.Controllers.CitiesController.GetCities (API_Rentals)' with route pattern 'api/Cities' is valid for the request path '/api/Cities'
+2023-03-21 20:35:33.574 -04:00 [DBG] Request matched endpoint 'API_Rentals.Controllers.CitiesController.GetCities (API_Rentals)'
+2023-03-21 20:35:33.575 -04:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2023-03-21 20:35:33.578 -04:00 [INF] Executing endpoint 'API_Rentals.Controllers.CitiesController.GetCities (API_Rentals)'
+2023-03-21 20:35:33.618 -04:00 [INF] Route matched with {action = "GetCities", controller = "Cities"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Collections.Generic.IEnumerable`1[API_Rentals.Models.CityWithoutPointsOfInterestDto]]] GetCities(System.String, System.String, Int32, Int32) on controller API_Rentals.Controllers.CitiesController (API_Rentals).
+2023-03-21 20:35:33.621 -04:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2023-03-21 20:35:33.622 -04:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2023-03-21 20:35:33.624 -04:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2023-03-21 20:35:33.626 -04:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2023-03-21 20:35:33.627 -04:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2023-03-21 20:35:33.630 -04:00 [DBG] Executing controller factory for controller API_Rentals.Controllers.CitiesController (API_Rentals)
+2023-03-21 20:35:33.785 -04:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2023-03-21 20:35:33.984 -04:00 [INF] Executed action API_Rentals.Controllers.CitiesController.GetCities (API_Rentals) in 349.9138ms
+2023-03-21 20:35:33.987 -04:00 [INF] Executed endpoint 'API_Rentals.Controllers.CitiesController.GetCities (API_Rentals)'
+2023-03-21 20:35:33.988 -04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.ArgumentException: Incorrect number of arguments supplied for call to method 'Entities.Models.City get_Item(Int32)' (Parameter 'property')
+   at System.Linq.Expressions.Expression.Property(Expression expression, PropertyInfo property)
+   at AutoMapper.Execution.TypeMapPlanBuilder.CreatePropertyMapFunc(MemberMap memberMap, Expression destination, MemberInfo destinationMember)
+   at AutoMapper.Execution.TypeMapPlanBuilder.CreateAssignmentFunc(Expression createDestination)
+   at AutoMapper.Execution.TypeMapPlanBuilder.CreateMapperLambda()
+   at AutoMapper.TypeMap.CreateMapperLambda(IGlobalConfiguration configuration)
+   at AutoMapper.TypeMap.Seal(IGlobalConfiguration configuration)
+   at AutoMapper.MapperConfiguration.<.ctor>g__Seal|20_0()
+   at AutoMapper.MapperConfiguration..ctor(MapperConfigurationExpression configurationExpression)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c.<AddAutoMapperClasses>b__12_2(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitRootCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.CreateServiceAccessor(Type serviceType)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService(IServiceProvider provider, Type serviceType)
+   at Microsoft.Extensions.DependencyInjection.ServiceProviderServiceExtensions.GetRequiredService[T](IServiceProvider provider)
+   at Microsoft.Extensions.DependencyInjection.ServiceCollectionExtensions.<>c.<AddAutoMapperClasses>b__12_3(IServiceProvider sp)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(Type serviceType, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2023-03-21 20:35:34.018 -04:00 [INF] Request finished HTTP/2 GET https://localhost:7047/api/Cities?pageNumber=1&pageSixe=10 - - - 500 - text/plain;+charset=utf-8 459.5331ms
