@@ -10,6 +10,8 @@ using Entities.Models;
 using API_Rentals.Models;
 using ExpressMapper;
 
+//test
+
 Log.Logger = new LoggerConfiguration()
   .MinimumLevel.Debug()
   .WriteTo.Console()
