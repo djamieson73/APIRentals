@@ -26,6 +26,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Entities\Entities.csproj" />
+    <ProjectReference Include="..\RentalEntities\Entities.csproj" />
   </ItemGroup>
 
 </Project>
